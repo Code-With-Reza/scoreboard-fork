@@ -41,7 +41,7 @@ var Stopwatch = React.createClass({
   
   onStart: function () {
     this.setState({
-      running: true
+      running: true,
       previousTime: Date.now(),
     });
      
